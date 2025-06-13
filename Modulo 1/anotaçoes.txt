@@ -1,0 +1,52 @@
+diferença entre classe e objeto no javaScript
+Classe é um molde ou estrutura que define propriedades e métodos comuns para criar objetos. 
+No JavaScript, classes facilitam a criação de objetos com características semelhantes.
+
+Objeto é uma instância de uma classe, ou seja, é criado a partir do molde definido pela classe e possui valores próprios para suas propriedades.
+
+Exemplo:
+class Pessoa {
+    constructor(nome) {
+        this.nome = nome;
+    }
+    falar() {
+        console.log(`Olá, meu nome é ${this.nome}`);
+    }
+}
+
+const pessoa1 = new Pessoa('Ana'); // pessoa1 é um objeto da classe Pessoa
+pessoa1.falar(); // Saída: Olá, meu nome é Ana
+
+Diferença entre classe e objeto no JavaScript
+- Classe é um molde para criar objetos, definindo propriedades e métodos comuns.
+- Objeto é uma instância de uma classe, com valores próprios para suas propriedades.
+
+Exemplo de classe e objeto no JavaScript
+
+classe: 
+class Carro {
+    constructor(marca, modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+    detalhes() {
+        console.log(`Carro: ${this.marca} ${this.modelo}`);
+    }
+}
+objeto: 
+const meuCarro = new Carro('Toyota', 'Corolla'); // meuCarro é um objeto da classe Carro
+meuCarro.detalhes(); // Saída: Carro: Toyota Corolla
+
+
+oq são listas encadeadas e onde usamos elas? 
+R: Listas encadeadas são estruturas de dados compostas por nós, onde cada nó contém um valor e uma referência ao próximo nó na sequência. 
+Elas são usadas para armazenar coleções de elementos de forma dinâmica, permitindo inserções e remoções eficientes.
+As listas encadeadas são úteis quando precisamos de uma estrutura que permita fácil inserção e remoção de elementos como: 
+filas, pilhas ou implementações de grafos.
+
+onde usamos pilhas e filas?
+R: Pilhas e filas são estruturas de dados usadas para gerenciar coleções de elementos com diferentes regras de acesso.
+- Pilhas (LIFO - Last In, First Out): Usadas em situações onde o último elemento adicionado é o primeiro a ser removido. Exemplos incluem:
+  - Desfazer ações em editores de texto.
+  - Implementação de chamadas de função (stack trace).
+  - Algoritmos de backtracking.
