@@ -11,3 +11,11 @@ principais pontos
 * Rastreabilidade - possibilita identificar facilmente quem fez cada alteração e por quê, o que é útil para auditorias e revisões de código.
 * Backup e recuperação - o versionamento de código serve como uma forma de backup, permitindo que os desenvolvedores recuperem versões anteriores do código em caso de problemas.
 
+oq é o GitHub? 
+R: É uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git.
+GitHub permite que os desenvolvedores armazenem seus projetos, colaborem com outros e compartilhem seu código com a comunidade.
+
+diferença entre Git e GitHub? 
+R: Git é o sistema de controle de versão que gerencia as alterações no código
+enquanto GitHub é uma plataforma que hospeda repositórios Git e oferece ferramentas para colaboração e compartilhamento de código.
+
