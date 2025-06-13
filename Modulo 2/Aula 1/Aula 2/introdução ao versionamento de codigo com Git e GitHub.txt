@@ -1,0 +1,13 @@
+Versionamento de código com Git e GitHub
+
+O que é Versionamento de codigo?
+R: É o processo de acompanhar e gerenciar as alterações feitas no código-fonte ao longo do tempo. 
+Isso permite que os desenvolvedores revertam para versões anteriores, comparem mudanças e colaborem de forma mais eficiente. 
+
+principais pontos 
+* Histórico de alterações - permite ver o que foi alterado, quando e por quem.
+* Colaboração - facilita o trabalho em equipe, permitindo que várias pessoas trabalhem no mesmo projeto sem conflitos.
+* Ramos (branches) e fusoes (merges) - possibilita o desenvolvimento paralelo de recursos e a integração dessas alterações de forma controlada.
+* Rastreabilidade - possibilita identificar facilmente quem fez cada alteração e por quê, o que é útil para auditorias e revisões de código.
+* Backup e recuperação - o versionamento de código serve como uma forma de backup, permitindo que os desenvolvedores recuperem versões anteriores do código em caso de problemas.
+
