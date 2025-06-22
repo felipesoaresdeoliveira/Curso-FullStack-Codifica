@@ -1,0 +1,15 @@
+Estruturas básicas de uma página HTML
+
+- O qué é Semantica HTML?
+  - Semântica HTML refere-se ao uso de tags HTML que têm significado claro e específico, ajudando a descrever o conteúdo da página de forma mais compreensível tanto para humanos quanto para máquinas (como motores de busca).
+- O que é uma tag HTML?
+  - Uma tag HTML é um elemento que define a estrutura e o conteúdo de uma página web. As tags são usadas para criar elementos como títulos, parágrafos, listas, links, imagens, etc.
+- O que é um elemento HTML?
+  - Um elemento HTML é uma combinação de uma tag de abertura, conteúdo e uma tag de fechamento. Por exemplo, `<p>Este é um parágrafo</p>` é um elemento HTML onde `<p>` é a tag de abertura, "Este é um parágrafo" é o conteúdo e `</p>` é a tag de fechamento.
+- O que é um atributo HTML?
+  - Um atributo HTML é uma modificação que pode ser adicionada a uma tag para fornecer informações adicionais sobre o elemento. Por exemplo, a tag `<img src="imagem.jpg" alt="Descrição da imagem">` tem os atributos `src` e `alt`, que especificam a fonte da imagem e uma descrição alternativa, respectivamente.
+- O que é um cabeçalho HTML?
+  - Um cabeçalho HTML é um elemento que define o título ou a seção de uma página. Os cabeçalhos são criados usando as tags `<h1>` a `<h6>`, onde `<h1>` é o mais importante e `<h6>` é o menos importante. Eles ajudam a estruturar o conteúdo e melhorar a acessibilidade.
+- O que é um parágrafo HTML?
+    - Um parágrafo HTML é um bloco de texto que é definido pela tag `<p>`. Ele é usado para agrupar e formatar texto em uma página web, separando-o visualmente de outros elementos. Por exemplo, `<p>Este é um parágrafo.</p>` cria um parágrafo com o texto "Este é um parágrafo.".
+- O que é uma lista HTML?

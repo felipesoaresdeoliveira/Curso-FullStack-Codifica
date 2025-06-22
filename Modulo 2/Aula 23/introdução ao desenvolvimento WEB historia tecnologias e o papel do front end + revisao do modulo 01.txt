@@ -1,2 +1,16 @@
 Titulo: introdução ao desenvolvimento WEB: história, tecnologias e o papel do front-end + revisão do módulo 01
 
+história do desenvolvimento web:
+* A história do desenvolvimento web começou com a criação da World Wide Web por Tim Berners-Lee em 1989, que introduziu o conceito de hipertexto e URLs.
+* Nos anos 90, surgiram os primeiros navegadores web, como o Mosaic e o Netscape Navigator, que permitiram a visualização de páginas web de forma mais amigável.
+* A introdução do HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) permitiu a criação de páginas web mais estruturadas e estilizadas.
+* Com o tempo, surgiram linguagens de programação como JavaScript, que possibilitaram a criação de interatividade nas páginas web.
+* Nos anos 2000, o desenvolvimento web evoluiu com a introdução de frameworks e bibliotecas, como jQuery, que facilitaram a manipulação do DOM e a criação de efeitos visuais.
+* A popularização dos smartphones e tablets levou ao desenvolvimento de sites responsivos, que se adaptam a diferentes tamanhos de tela.
+
+Qual o papel do front-end no desenvolvimento web:
+* O front-end é a parte do desenvolvimento web que lida com a interface do usuário e a experiência do usuário (UX).
+* Ele envolve a criação de layouts, design visual, interatividade e usabilidade das páginas web.
+* O front-end utiliza tecnologias como HTML, CSS e JavaScript para construir a interface do usuário.
+* O papel do front-end é garantir que as páginas web sejam atraentes, funcionais e fáceis de usar, proporcionando uma experiência agradável para os usuários.
+* O front-end também é responsável por otimizar o desempenho das páginas web, garantindo tempos de carregamento rápidos e uma navegação fluida.
