@@ -1,0 +1,6 @@
+funcionalidades a adicionar ao sistema de lista de compras: 
+
+1 - marcar um item como comprado e salvar esse estatus no localStorage
+2 - contador de itens comprados ( mostrar o total de itens comprados, atualizando em tempo real )
+3 - adicione filtros para itens 'comprados' e 'pendentes' (não comprados)
+4 - permita ordenar alfabeticamente os itens da lista ou por status (com prado ou pendente)

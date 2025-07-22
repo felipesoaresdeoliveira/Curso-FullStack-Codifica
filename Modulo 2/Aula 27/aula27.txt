@@ -1,0 +1,38 @@
+Aula 27 Estilizando paginas com CSS: Seletores e propriedades
+
+- Seletores CSS: 
+  - Seletores de tipo: `h1`, `p`, `div`
+  - Seletores de classe: `.classe`
+  - Seletores de ID: `#id`
+  - Seletores de atributo: `[type="text"]`
+  - Seletores universais: `*`
+  - Seletores descendentes: `div p`
+  - Seletores de filho: `ul > li`
+  - Seletores adjacentes: `h1 + p`
+  - Seletores gerais: `h1 ~ p`
+
+  propriedades CSS:
+  - Propriedades de texto: `color`, `font-size`, `text-align`
+    - Propriedades de fundo: `background-color`, `background-image`
+    - Propriedades de borda: `border`, `border-radius`  
+    - Propriedades de layout: `margin`, `padding`, `display`, `position`
+    - Propriedades de lista: `list-style`, `list-style-type`, `list-style-image`
+    - Propriedades de tabela: `border-collapse`, `border-spacing`, `caption-side`
+    - Propriedades de animação: `transition`, `transform`, `animation`
+    - Propriedades de flexbox: `display: flex`, `flex-direction`, `justify-content`, `align-items`
+    - Propriedades de grid: `display: grid`, `grid-template-columns`, `grid-template-rows`, `grid-gap`
+    - Propriedades de fontes: `font-family`, `font-weight`, `font-style
+    - Propriedades de sombra: `box-shadow`, `text-shadow`
+    - Propriedades de opacidade: `opacity`
+    - Propriedades de cursor: `cursor`
+    - Propriedades de visibilidade: `visibility`
+    - Propriedades de transformação: `transform`, `transform-origin`
+    - Propriedades de transição: `transition`, `transition-duration`, `transition-timing-function`
+    - Propriedades de filtro: `filter`, `backdrop-filter`
+    - Propriedades de tamanho: `width`, `height`, `max-width`, `min-height`
+    - Propriedades de alinhamento: `text-align`, `vertical-align`, `line-height`
+    - Propriedades de espaçamento: `margin`, `padding`, `gap`
+    - Propriedades de visibilidade: `visibility`, `display`
+    - Propriedades de transformação: `transform`, `transform-origin`
+    - Propriedades de transição: `transition`, `transition-duration`, `transition-timing-function`
+    - Propriedades de filtro: `filter`, `backdrop-filter`

@@ -1,0 +1,197 @@
+<!-- Um cabeçalho com menu de navegaçao secao galeria, com duas imagens, secao de demonstracao com um video e um link pro youtube com um rodapre com mailto, tel. cusem tags semanticas-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport1" content="width=device-width, initial-scale=1.0">
+    <title>Aula 27</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        #galeria h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+       #galeria img {
+            align-items: center;
+            text-align: center;
+            padding: 25px;
+            width: 450px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        aside h1{
+            padding: 30px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        video {
+            width: 1000px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #demonstracao {
+            font: bold 20px;
+            text-align: center;
+        }
+        #demonstracao a {
+            margin-top: 10px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        footer a {
+            color : white;
+            text-decoration: none;
+        }
+        footer p {
+            color : white;
+            margin: 5px 0;
+            
+        }
+
+        #table, h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        #table table {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+
+        #table th, #table td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        #table, th {
+            align-items: center;
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <header>
+            <h1>Bem-vindo à Aula 27</h1>
+            <nav>
+                <ul>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#demonstracao">Demonstração</a></li>
+                    <li><a href="#table">Relatório de Vendas</a></li>
+                </ul>
+            </nav>
+        </header>
+    </aside>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <img src="/Modulo 2/Aula 27/assets/17492460334847365imagem.png" alt="Imagem 1">
+        <img src="/Modulo 2/Aula 27/assets/ChatGPT Image 8 de jun. de 2025, 17_24_05.png" alt="Imagem 2">
+    </section>
+
+    <section id="demonstracao">
+        <h2>Demonstração</h2>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <p>Veja mais no nosso canal do <a href="https://www.youtube.com" target="_blank">YouTube</a>.</p>
+    </section>
+
+    <section id="table">
+ 
+  <h2>Relatório de vendas</h2>
+        <table>
+
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td>Produto A</td>
+            <td>10</td>
+            <td>R$ 20,00</td>
+            <td>R$ 200,00</td>
+        </tr>
+        <tr>
+            <td>Produto B</td>
+            <td>5</td>
+            <td>R$ 30,00</td>
+            <td>R$ 150,00</td>
+        </tr>
+        <tr>
+            <td>Produto C</td>
+            <td>8</td>
+            <td>R$ 15,00</td>
+            <td>R$ 120,00</td>
+        </tr>
+        <tr>
+            <td>Produto D</td>
+            <td>12</td>
+            <td>R$ 25,00</td>
+            <td>R$ 300,00</td>
+        </tr>
+        <tr>
+            <td>Produto E</td>
+            <td>7</td>
+            <td>R$ 18,00</td>
+            <td>R$ 126,00</td>
+        </tr>
+    </table>
+           
+
+
+    </section>
+
+    <footer>
+        <p>Contato <a href="mailto:felipesoaresdeoliveira206@gmail.com"></p>
+        tell: <a href="tel:+5511999999999">+55 11 99999-9999</a></p>
+</body>
+</html>
