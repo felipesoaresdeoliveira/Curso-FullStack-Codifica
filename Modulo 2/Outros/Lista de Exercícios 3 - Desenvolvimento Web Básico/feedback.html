@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modulo 2/Outros/Lista de Exercícios 3 - Desenvolvimento Web Básico/css/feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <form>
+        <h1>Formulario de Feedback</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="enderecoCompleto">Endereço Completo:</label>
+        <input type="text" id="enderecoCompleto" name="enderecoCompleto" required>
+        <br><br>
+        <label for="Tipofeedback">Tipo de Feedback:</label>
+        <select id="Tipofeedback" name="Tipofeedback" required>
+            <option value="elogio">Elogio</option>
+            <option value="critica">Crítica</option>
+            <option value="sugestao">Sugestão</option>
+        </select>
+        <br><br>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="40" required></textarea>
+        <br><br>
+        <label for="anexo">Anexo (opcional):</label>
+        <input type="file" id="anexo" name="anexo" accept=".jpg, .jpeg, .png, .pdf">
+        <br><br>
+        <button class="submit">Enviar</button>
+    </form>
+</body>
+</html>

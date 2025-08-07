@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1 id="titulo">Titulo Original</h1>
+    <button id="btn">Alterar Titulo</button>
+    <button id="reset">reset</button>
+
+    <ul id="lista"></ul>
+    <button id="btnAdd">add Item</button>
+
+    <p  id="paragrafo">Copa America</p>
+
+    <script>
+     const lista = document.getElementById('lista')
+     const btnAdd = document.getElementById('btnAdd')
+     const paragrafo = document.getElementById('paragrafo')
+
+     let contador = 1
+
+     btnAdd.addEventListener('click', () => {
+         const li = document.createElement('li')
+         li.textContent = `Item ${contador++}`
+         lista.appendChild(li)
+     })
+
+     paragrafo.addEventListener('mouseout', () => {
+         paragrafo.textContent = 'Copa do Mundo'
+         paragrafo.style.color = 'red'
+         paragrafo.style.fontSize = '20px'
+         paragrafo.style.fontWeight = 'bold'
+         paragrafo.style.textDecoration = 'underline'
+         paragrafo.style.backgroundColor = 'yellow'
+         
+     })
+
+
+    </script>
+</body>
+</html>
+

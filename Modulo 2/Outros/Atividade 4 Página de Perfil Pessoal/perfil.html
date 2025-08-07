@@ -1,83 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Perfil Pessoal</title>
-
-
-</head>
-<body>
-    
-    <nav class="nav">
-         <ul class="nav-list">
-            <li><a href="#sobre">Sobre Mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-    
-    <header class="header">
-        <div id="header">
-            <div class="profile">
-                <img id="img-header" src="https://cdn.discordapp.com/attachments/1205004660633763871/1387842510314934293/WhatsApp_Image_2024-09-05_at_19.44.28.jpeg?ex=685ed08f&is=685d7f0f&hm=58fd1a8559d44510917a2d424c2ce1aefed2307fd6dd3ad1872f9d0c84927a08&" alt="Felipe Soares de Oliveira">
-                    <div class="profile-text">
-                        <h2 id="name">Felipe Soares de Oliveira</h2>
-                        <p id="Slogan">Desenvolvedor em constante evolução.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </head>
+  <body>
+    <header>
+      <h2>Felipe Soares de Oliveira</h2>
+      <img src="./img/picofme (1).png" alt="Foto de perfil" />
     </header>
 
-    <main class="main-content">
-        <h1>Bem-vindo ao meu perfil pessoal!</h1>
-        <p>Este é um espaço onde compartilho minhas habilidades, projetos e informações sobre mim. Sinta-se à vontade para explorar!</p>
-        <p>Você pode navegar pelo menu acima para conhecer mais sobre mim, minhas habilidades, projetos e como entrar em contato.</p>
-        <p>Se tiver alguma dúvida ou quiser conversar, não hesite em me contatar!</p>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
 
+    <main>
+      <section id="sobre">
+        <h3>Sobre Mim</h3>
+        <p>
+          Sou Felipe Soares de Oliveira, estudante de Sistemas de Informação na
+          UNIPAR. Tenho formação técnica em Informática pelo IFPR. Atualmente,
+          estou me aprofundando em desenvolvimento full stack e busco aplicar
+          meus conhecimentos em projetos práticos. Tenho experiência acadêmica
+          trabalhando com linguagens como HTML, CSS, JavaScript, PHP e MySQL.
+          Tenho facilidade em aprender, gosto de trabalhar em equipe e estou
+          sempre em busca de novos desafios que me façam evoluir
+          profissionalmente.
+        </p>
+      </section>
+
+      <section id="habilidades" class="habilidades">
+        <h3>Minhas Habilidades</h3>
+        <p>
+          <a href="https://skillicons.dev">
+            <img
+              src="https://skillicons.dev/icons?i=html,css,js,git,github,postgres,java,php&perline=14"
+            />
+          </a>
+        </p>
+        <h2>Estou estudando no momento</h2>
+        <p>
+          <a href="https://skillicons.dev">
+            <img
+              src="https://skillicons.dev/icons?i=react,python,js&perline=14"
+            />
+          </a>
+        </p>
+      </section>
+
+      <section id="projetos" class="projetos">
+        <h3>Projetos</h3>
+        <p>Aqui estão alguns dos meus projetos academicos mais recentes:</p>
+        <ul>
+          <li>
+            <h3>Descrição do projeto 1: CampuSpace</h3>
+            <p>
+              Desenvolvimento de um aplicativo web de locação de espaços no
+              campus para eventos e atividades, com a implementação de
+              funcionalidades de registro de usuários, visualização de
+              disponibilidade e agendamento de reservas. Tecnologias utilizadas:
+              PHP, HTML, CSS, MySQL
+            </p>
+            <h3>Imagens do projeto</h3>
+            <a href="./imagens.html">Banco de imagens</a>
+          </li>
+          <li>
+            <h3>Descrição do projeto 2: SETIF</h3>
+            <p>
+              Contribuí no desenvolvimento o front-end do site institucional do
+              SETIF, utilizando Bootstrap, HTML, CSS, Javascript e PHP.
+            </p>
+            <h3>Imagens do projeto</h3>
+            <a href="./imagens.html">Banco de imagens</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contato" class="contato">
+        <h3>Contato</h3>
+        <p>Você pode entrar em contato comigo por:</p>
+        <ul>
+          <li>
+            <img src="./img/envelope.png" alt="" />Email:
+            <a href="mailto:felipesoaresdeoliveira13@gmail.com"
+              >felipesoaresdeoliveira13@gmail.com</a
+            >
+          </li>
+          <li>
+            <img src="./img/whatsapp.png" alt="" />WhatsApp:
+            <a href="https://whatsa.me/5544991284959/?t=Ol%C3%A1,%20Felipe"
+              >44 9 9128-4959</a
+            >
+          </li>
+        </ul>
+        <p>Ou me encontrar nas redes sociais:</p>
+        <aside>
+          <ul>
+            <li>
+              <img src="./img/instagram.png" alt="" /><a
+                href="https://www.instagram.com/felipesoares_03/"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <img src="./img/linkedin.png" alt="" /><a
+                href="http://www.linkedin.com/in/felipesoares03/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <img src="./img/github.png" alt="" /><a
+                href="https://github.com/felipesoaresdeoliveira"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </section>
     </main>
 
-    <section class="about">
-        <h3 id="h3-about">Sobre Mim</h3>
-        <p id="p-about">Sou um desenvolvedor apaixonado por tecnologia e inovação. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer na área de desenvolvimento.</p>
-    </section>
-
-    <section class="skills">
-        <h3>Habilidades</h3>
-        <ul>
-            <li>HTML, CSS e JavaScript</li>
-            <li>Java</li>
-            <li>Programação Orientada a Objetos</li>
-        </ul>
-    </section>
-
-    <section class="projects">
-        <h3>Projetos</h3>
-        <ul>
-            <li><a href="www.campuSpace.com">Projeto 1: CampuSpace</a> - CampuSpace é uma plataforma web para agendamento de espaços no campus, como salas e quadras, facilitando a organização e o uso eficiente dos ambientes da instituição.</li>
-            <li><a href="www.setif.com">Projeto 2: Site do SETIF</a> - Desenvolvi o site institucional do SETIF 2024, utilizando HTML, CSS, JavaScript, PHP e Bootstrap.</li>
-        </ul>
-    </section>
-
-    <section class="contact">
-        <h3>Contato</h3>
-        <p>Você pode me encontrar nas seguintes redes sociais:</p>
-        <aside class="contact-list">
-                <li><a href="instagram.com/felipesoaresdev">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/felipe-soares-de-oliveira-4b0a1b1b6/">LinkedIn</a></li>
-                <li><a href="github.com/felipesoaresdev">GitHub</a></li>
-        </aside>
-    </section>
-
-    <HR>
-
-    <footer class="footer">
-        <p>&copy; 2024 Felipe Soares de Oliveira. Todos os direitos reservados.</p>
-</body>
+    <footer>
+      <p>
+        &copy; 2023 Felipe Soares de Oliveira. Todos os direitos reservados.
+      </p>
+      <p>Desenvolvido como parte do curso de formação FullStack da +PraTi.</p>
+    </footer>
+  </body>
 </html>

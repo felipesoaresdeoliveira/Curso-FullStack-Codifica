@@ -2,8 +2,10 @@ const formAdd = document.getElementById('todo-form')
 const inputItem = document.getElementById('todo-input')
 const listaItem = document.getElementById('todo-list')
 const btnLimpar = document.getElementById('clear-todos')
+const contagemComprados = document.getElementById('contagem')
 
 let itens = []
+let itensComprados = []
 
 // Carregar dados do localStorage
 window.addEventListener('DOMContentLoaded', () => {
@@ -12,15 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
         itens = JSON.parse(dadosSalvos)
         renderLista()
     }
-   
-    const salvarComprados = localStorage.getItem('itensComprados')
-    if (salvarComprados) {
-        itens = JSON.parse(salvarComprados)
-        renderLista()
-    }
-
 })
-
 
 function salvarDados() {
     localStorage.setItem('listaCompras', JSON.stringify(itens))
@@ -30,7 +24,24 @@ function renderLista() {
     listaItem.innerHTML = ''
     itens.forEach((item, index) => {
         const li = document.createElement('li')
-        li.textContent = item
+        li.textContent = item.nome
+        if (item.comprado) {
+            li.style.textDecoration = 'line-through'
+            li.style.color = 'gray'
+        }
+
+        const btnComprar = document.createElement('button')
+        btnComprar.textContent = item.comprado ? 'Comprado' : 'Comprar'
+        btnComprar.addEventListener('click', () => {
+            itens[index].comprado = !itens[index].comprado
+            if (itens[index].comprado) {
+                itensComprados.push(itens[index])
+            } else {
+                itensComprados = itensComprados.filter(i => i.nome !== itens[index].nome)
+            }
+            salvarDados()
+            renderLista()
+        })
 
         const btnRemover = document.createElement('button')
         btnRemover.textContent = 'X'
@@ -38,6 +49,7 @@ function renderLista() {
             removerItem(index)
         })
 
+        li.appendChild(btnComprar)
         li.appendChild(btnRemover)
         listaItem.appendChild(li)
     })
@@ -47,7 +59,7 @@ formAdd.addEventListener('submit', (event) => {
     event.preventDefault()
     const novoItem = inputItem.value.trim()
     if (novoItem === '') return
-    itens.push(novoItem)
+    itens.push({ nome: novoItem, comprado: false })
 
     salvarDados()
     renderLista()
@@ -61,6 +73,9 @@ function removerItem(index) {
     renderLista()
 }
 
+function atualizarContagem() {
+
+}
 
 btnLimpar.addEventListener('click', () => {
     if (confirm('Você tem certeza que deseja limpar a lista?')) {
